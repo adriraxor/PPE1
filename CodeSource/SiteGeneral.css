@@ -1,0 +1,381 @@
+/*BODY*/
+body
+{
+color: white;
+margin: 0;
+background-size: cover;
+font-weight: 300;
+font-family: 'Volkhov', serif;
+}
+
+/*-------Index.php alias la page d'accueil---------*/
+h1
+{
+text-decoration: underline;
+}
+
+
+.sautregles
+{
+    margin-top: 10%;
+}
+
+.sautactu
+{
+    margin-top: 10%;
+}
+
+.sautcreateaccount
+{
+    margin-top: 10%;
+}
+
+/*NAVIGATION BAR TOP*/
+.container 
+{
+	width: 85%;
+	margin: 0px auto;
+}
+
+/*Couleur Bandeau et configuration*/
+header 
+{
+	background-color: #303030 ;
+}
+
+header::after
+{
+	content:'';
+	display: table;
+	clear: both;
+}
+
+/*LOGO Parametre*/
+.logo
+{
+	float: left;
+	width: 60px;
+	padding: 4px 0;
+
+
+}
+
+/*Configuration de la nav*/
+nav 
+{
+	float: right;
+}
+
+nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+nav li 
+{
+	margin-left: 30px;
+	display: inline-block;
+	padding-top: 0px;
+}
+
+nav a
+{
+
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/*Liens*/
+.Accueil
+{
+	font-family: 'Bree Serif', serif;
+}
+
+.Regles
+{
+	font-family: 'Bree Serif', serif;
+}
+
+.HistoireETchampions
+{
+	font-family: 'Bree Serif', serif;
+}
+
+.Contact
+{
+	font-family: 'Bree Serif', serif;
+}
+
+.navTT
+{
+	font-family: 'Bree Serif', serif;
+}
+
+
+.Connexion
+{
+    font-family: 'Bree Serif', serif;
+}
+
+.Classement
+{
+	font-family: 'Bree Serif', serif;
+}
+/*ANIMATION TEXTE ACCUEIL*/
+.navTT
+{
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+   animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow
+{
+	from{
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+		to{
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6; 
+		}
+	}
+}
+
+
+/*TITRE*/
+h1
+{
+	font-style: bold;
+	color: red;
+	font-family: Carolina Short;
+}
+
+h3
+{
+   color: brown;
+   font: serif;
+}
+
+
+
+
+/*---------------------*/
+/*-------Video(s)--------*/
+/*---------------------*/
+.video1
+{
+	position: absolute;
+	right: 0px;
+	bottom: 200px;
+	min-width: 10%;
+	min-height: 10%;
+	width: auto;
+	height: auto;
+	border: 4mm ridge rgb(0, 0, 0, .8);
+}
+
+.video2
+{
+	position: absolute;
+	right: 1250px;
+	bottom: 200px;
+	min-width: 10%;
+	min-height: 10%;
+	width: 650px;
+	height: auto;
+	border: 4mm ridge rgb(0, 0, 0, .8);
+}
+
+
+/*Script Heure = Bonus*/
+.Script 
+{
+  transition: 1s background-color;
+  text-align: center;
+  color: #FFF;
+}
+
+#time 
+{
+  letter-spacing: 3px;
+  font: bold 15px/30% Arial;
+  color: gray;
+  text-align: right;
+}
+
+
+
+/*Apparence lien quel que soit les pages*/
+a
+{
+	line-height: 1.4;
+
+}
+
+a:link
+{
+	outline: none;
+	text-decoration: none;
+	padding: 2px 1px 0;
+
+}
+
+a:visited 
+{
+	color: white;
+
+}
+
+a:focus
+{
+	border-bottom: 1px solid;
+	background: gray;
+
+}
+
+a:hover
+{
+        border-bottom: 2mm ridge rgb(255, 255, 220, .6);
+	background-color: gray;
+
+}
+
+a:active
+{
+	background: #265301;
+	background-color: gray;
+}
+
+
+/*PIED DE PAGE*/
+footer 
+{
+	text-align: center;
+	width: 100%;
+	background-color: #303030;
+	padding: 0px 0px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	color: black;
+}
+
+.Copyright
+{
+	color: black;
+	text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em blue;
+}
+
+.devby
+{
+	color: gray;
+}
+
+#account
+{
+  font: 15px/30% Arial;
+  color: black;
+  text-align: left;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em blue;
+}
+
+
+/*-----------------PAGE ACTUALITES----------------------*/
+.Actualites
+{
+	color: red;
+	text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em blue;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+.tr, td, th
+{
+	border: 3px solid gray;
+}
+
+.TournoisEntete
+{
+	font-size: 25px;
+	color: green;
+}
+
+/*-------Classement------------*/
+
+.ClassementEntete
+{
+	font-size: 25px;
+	color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------Entête-------------*/
+.espacement
+{
+    margin-right: 500px;
+}
+
+/*------------CONNEXION----------------*/
+.textbox
+{
+    background-color: lightgrey;
+	width:500px;
+	border: 10px solid black;
+	padding: 50px;
+	margin: 20px;
+	position: absolute;
+	right: 700px;
+    color: black;
+    font-weight: bold;
+}
+
+.create-account
+{
+    border-color: white;
+    font-weight: bold;
+    width: 500px;
+    height: 50px;
+}
+
+#Connecter
+{
+    color: blue;
+}
+
+#title-se-connecter
+{
+    color: blue;
+    font-weight: bold;
+}
+
+#CreerCompte
+{
+    color: blue;
+    font-weight: blue;
+}
+
+/*-----Confirmation Inscription [Insertion.php]*/
+
+#lienConnexionInscription
+{
+	color: black;
+	font-size: 25px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.ConfirmationInscription
+{
+	font-size: 16px;
+}
