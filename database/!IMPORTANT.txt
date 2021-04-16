@@ -1,0 +1,14 @@
+-------------------------------------------------------
+--------------------MYSQL------------------------------
+-------------------------------------------------------
+
+
+1) IMPORTER LA BASE DE DONNEE DANS MYSQL VIA IMPORTER
+
+(PS: "CREATE DATABASE" EST INCLUS")
+
+
+
+
+
+FIGUERES Adrien
